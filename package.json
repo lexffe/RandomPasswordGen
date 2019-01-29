@@ -1,0 +1,19 @@
+{
+  "name": "RandomPasswordGen",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "start":  "backpack build && node ./build/main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.2.4"
+  }
+}

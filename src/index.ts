@@ -71,12 +71,13 @@ for (let j = 0; j < numOfPasswords; j += 1) { // for number of passwords
       return charArr.join(''); // password as string
     });
 
+  // TODO: check if each password fits requirement...
+
 }
 
 Promise.all(passwordArray)
 .then((passwords) => {
   console.log(passwords);
-  console.log(passwords.length);
 })
 .catch((err) => {
   throw err;

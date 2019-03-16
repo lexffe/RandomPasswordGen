@@ -1,5 +1,5 @@
 {
-  "name": "RandomPasswordGen",
+  "name": "random-password-gen",
   "version": "1.0.0",
   "author": "",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "backpack",
     "build": "backpack build",
-    "start":  "backpack build && node ./build/main.js"
+    "start": "backpack build && node ./build/main.js"
   },
   "dependencies": {},
   "devDependencies": {
